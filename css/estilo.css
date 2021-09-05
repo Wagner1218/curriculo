@@ -11,3 +11,7 @@ h2{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+hr{
+background-color: #E57B38;
+height: 7px;
+}

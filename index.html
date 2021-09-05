@@ -24,55 +24,80 @@
             <h1>Dados Pessoais</h1><br>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4">Qual é o seu nome?</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
+                <label for="inputEmail4">Qual é o seu nome completo?</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Nome completo">
               </div>
               <div class="form-group col-md-6">
                 <label for="inputPassword4">Qual é o seu e-mail?</label>
-                <input type="email" class="form-control" id="inputPassword4" placeholder="Senha">
+                <input type="email" class="form-control" id="inputPassword4" placeholder="E-mail">
               </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-3">
                   <label for="inputEmail4">Qual é o seu telefone?</label>
-                  <input type="number" class="form-control" id="inputEmail4" placeholder="Email">
+                  <input type="number" class="form-control" id="inputEmail4" placeholder="Telefone">
                 </div>
                 <div class="form-group col-md-3">
                   <label for="inputPassword4">Data de Nacimento</label>
-                  <input type="date" class="form-control" id="inputPassword4" placeholder="Senha">
+                  <input type="date" class="form-control" id="inputPassword4" placeholder="Data de Nacimento">
                 </div>
                 <div class="form-group col-md-2">
                     <label for="inputPassword4">Sexo</label>
                     <select id="inputEstado" class="form-control">
                         <option selected>Escolher...</option>
-                        <option>...</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
                       </select>
                 </div>
                 <div class="form-group col-md-2">
                     <label for="inputPassword4">Naturalidade</label>
-                    <input type="email" class="form-control" id="inputPassword4" placeholder="Senha">
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Naturalidade">
                 </div>
                 <div class="form-group col-md-2">
                     <label for="inputPassword4">UF</label>
                     <select id="inputEstado" class="form-control">
                         <option selected>Escolher...</option>
-                        <option>...</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
                       </select>
                 </div>
               </div>
-    </div>
-    <hr>
-    <div class="container">
+        <hr>
         <h1>Dados Complementares</h1><br>
         <div class="form-row">
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-4">
             <label for="inputEmail4">Vaga desejada?</label>
             <select id="inputEstado" class="form-control">
                 <option selected>Escolher...</option>
                 <option>...</option>
               </select>
           </div>
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-2">
             <label for="inputEmail4">Possui experiência ?</label><br>
             <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
@@ -101,14 +126,14 @@
         </div>
         <!--------------------------------------------------------------------------------------------------------->
         <div class="form-row">
-            <div class="form-group col-md-3">
+            <div class="form-group col-md-4">
               <label for="inputEmail4">Vaga desejada?</label>
               <select id="inputEstado" class="form-control">
                   <option selected>Escolher...</option>
                   <option>...</option>
                 </select>
             </div>
-            <div class="form-group col-md-3">
+            <div class="form-group col-md-2">
               <label for="inputEmail4">Possui experiência ?</label><br>
               <div class="custom-control custom-radio custom-control-inline">
                   <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
@@ -120,7 +145,7 @@
                 </div>
             </div>
             <div class="form-group col-md-2">
-              <label for="inputEmail4">Já trabalho no Rodrigues ?</label><br>
+              <label for="inputEmail4">Trabalhou no Rodrigues?</label><br>
               <div class="custom-control custom-radio custom-control-inline">
                   <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
                   <label class="custom-control-label" for="customRadioInline1">Sim</label>
@@ -135,12 +160,32 @@
                   <input type="date" class="form-control" id="inputPassword4" placeholder="Senha">
              </div>
           </div>
-        
-        
-     
-    </div>
-    
     <hr>
+        <h1>Escolaridade</h1>
+        <div class="row">
+          <div class="form-group col-md-12">
+            <label for="inputPassword4">Selecione sua escolaridade</label>
+            <select id="inputEstado" class="form-control">
+                <option selected>Escolher...</option>
+                <option>...</option>
+              </select>
+            
+              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+         </div>
+         <hr>
+         <div class="form-group">
+            <h2>O cadastro de currículo profissional é necessário para concorrer as vagas 
+            disponíveis. O candidato é responsável pela veracidade de todos os 
+            dados fornecidos, a inserção dos dados é feita exclusivamente pelo
+            candidato sem nenhum auxilio da empresa. Após finalizar o cadastro 
+            curricular no site, o candidato concorda com o tratamento de seus 
+            dados pessoais pelo Comércio dos Irmãos Sr. Ltda. Para a finalidade 
+            especifica de triagem em processos de recrutamento, em conformidade
+            com a Lei nº 13.709 – Lei Geral de Proteção de Dados (LGPD).</h2>
+        </div>
+     
     </form>
 </body>
 </html>
